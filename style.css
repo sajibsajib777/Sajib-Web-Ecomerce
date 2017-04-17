@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	 font-family: bebas;
+	 src: url("BebasNeue.eot"); 
+}
+@font-face {
+	 font-family: bebas;
+	 src: url("BebasNeue.ttf");
+}
+
+@font-face {
+ font-family: lobstar;
+ src: url("Lobster_1.4.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: lobstar;
+ src: url("Lobster 1.4.ttf") /* TTF file for CSS3 browsers */
+}
+
+.header h1{
+	font-family:lobstar;
+	text-transform: capitalize;
+}
+.header input{
+	width: 80%;
+	margin-top: 20px;
+	padding: 7px 0px;
+	background: url(searce.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.header span{
+	font-size: 20px;
+	color:  #afafaf;
+}
+.header img{
+	height: 30px;
+}
+.slider{
+	background: #37bfb1;
+	color:white;
+}
+.slider h3{
+	text-transform: uppercase;
+	font-family: bebas;
+	font-size: 17px;
+
+}
+.slider_text{
+	padding: 5% 0;
+}
+.slider_text h1{
+	font-family: bebas;
+	text-transform: uppercase;
+}
+#btn{
+	padding: 7px 27px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 2px solid white;
+	background: transparent;
+	font-family: bebas;
+}
+.service{
+	padding: 3% 0;
+}
+.service h3{
+	text-transform: uppercase;
+	font-family: bebas;
+	color: #afafaf;
+}
+.btn1{
+	width: 30%;
+	cursor: pointer;
+	border: none;
+	background: #3cc395;
+	color: white;
+	text-transform: uppercase;
+	font-family: bebas;
+	border-radius: 3px;
+	padding: 3px 5px;
+}
+.product{
+
+}
+.product-title{
+	background: #3fc0b1;
+}
+.product-title h1{
+	text-transform: uppercase;
+	font-family: bebas;
+	color: white;
+}
+.product_item{
+	padding: 5% 0;
+}
+.item{
+	border: 2px solid gray;
+	text-align: center;
+	margin: 20px;
+	padding: 20px 0;
+	background: #ffffff;
+	border-bottom: 5px solid #3cc395;
+	border-radius: 5px;
+}
+.item h3{
+	text-transform: uppercase;
+	font-family: bebas;
+	color: #afafaf;
+}
+.item span{
+	font-size: 20px;
+	color: #afafaf;
+}
+.btn2{
+	width: 30%;
+	cursor: pointer;
+	border: none;
+	background: #3cc395;
+	color: white;
+	text-transform: uppercase;
+	font-family: bebas;
+	border-radius: 3px;
+	padding: 5px 5px;
+}
+.stor{
+	background: #3cc3b5;
+	color: white;
+	padding: 3% 0;
+}
+.stor ul{
+	list-style: none;
+}
+.stor ul label{
+	text-transform: uppercase;
+	font-family: bebas;
+	font-size: 20px;
+}
+.footer{
+	background: #2da89b;
+	text-align: center;
+	color: white;
+	padding: 1%;
+}
+
+/*midia query*/
+@media (max-width: 767px) {
+	.slider_text{
+		text-align: center;
+	}
+	.service{
+		text-align: center;
+	}
+	.product-title{
+		text-align: center;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.slider_text{
+		text-align: center;
+	}
+	.service{
+		text-align: center;
+	}
+	.product-title{
+		text-align: center;
+	}
+}
